@@ -1,0 +1,60 @@
+*
+{
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    /* ..............background image setting ......... */
+    background-image: url(./banner.jpg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* /////end of background image setting ///// */
+
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+#message_enter
+{
+    display: block;
+    margin: 0.4rem auto;
+    background: #A7CCED;
+    outline: none;
+    border: none;
+}
+
+h3{
+    color: #381D2A;
+}
+#send_message
+{
+    border: none;
+    padding: 0.3rem;
+    border-radius: 30%;
+    cursor: pointer;
+    background-color: #8FC93A;
+    color: #6B4E71;
+    transition: all 2s ease-in-out;
+    margin-bottom: 0.6rem;
+    margin-top: 0.5rem;
+    outline: none;
+}
+#send_message:hover
+{
+    background-color: #3A4454;
+    color: azure;
+}
+.container
+{
+    padding: 1rem;
+    background-color: bisque;
+}
